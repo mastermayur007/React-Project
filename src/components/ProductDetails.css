@@ -1,0 +1,51 @@
+.product-details-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-details-name {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .product-details-price {
+    font-size: 1.25rem;
+    color: #4caf50;
+    margin-bottom: 1rem;
+  }
+  
+  .product-details-desc,
+  .product-details-phone,
+  .product-details-expiry {
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .product-details-ingredients {
+    margin-top: 1rem;
+  }
+  
+  .product-details-ingredients h4 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .product-details-ingredients ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #444;
+  }
+  
